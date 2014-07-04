@@ -1,4 +1,4 @@
-defmodule AmnesiaIssue_19 do
+defmodule AmnesiaSmallTestcase do
   use Application
 
   # See http://elixir-lang.org/docs/stable/Application.html
@@ -8,12 +8,12 @@ defmodule AmnesiaIssue_19 do
 
     children = [
       # Define workers and child supervisors to be supervised
-      # worker(AmnesiaIssue_19.Worker, [arg1, arg2, arg3])
+      # worker(AmnesiaSmallTestcase.Worker, [arg1, arg2, arg3])
     ]
 
     # See http://elixir-lang.org/docs/stable/Supervisor.html
     # for other strategies and supported options
-    opts = [strategy: :one_for_one, name: AmnesiaIssue_19.Supervisor]
+    opts = [strategy: :one_for_one, name: AmnesiaSmallTestcase.Supervisor]
     Supervisor.start_link(children, opts)
   end
 end

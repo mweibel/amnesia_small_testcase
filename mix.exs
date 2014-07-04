@@ -1,8 +1,8 @@
-defmodule AmnesiaIssue_19.Mixfile do
+defmodule AmnesiaSmallTestcase.Mixfile do
 	use Mix.Project
 
 	def project do
-		[app: :amnesia_issue_19,
+		[app: :amnesia_small_testcase,
 		 version: "0.0.1",
 		 elixir: "~> 0.14.1",
 		 deps: deps]
@@ -14,7 +14,7 @@ defmodule AmnesiaIssue_19.Mixfile do
 	def application do
 		[
 			applications: [ :amnesia ],
-			mod: {AmnesiaIssue_19, []}
+			mod: {AmnesiaSmallTestcase, []}
 		]
 	end
 

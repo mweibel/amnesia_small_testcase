@@ -1,4 +1,4 @@
-defmodule AmnesiaIssue_19Test do
+defmodule AmnesiaSmallTestcaseTest do
 	use ExUnit.Case
 	use Amnesia
 

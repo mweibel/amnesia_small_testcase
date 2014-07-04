@@ -1,4 +1,4 @@
-AmnesiaIssue_19
+Amnesia Small Testcase Repo
 ===============
 
 ** TODO: Add description **
